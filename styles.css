@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffecd2 10%, #fcb69f 100%);
+}
+
+.note {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Rest of your CSS styles */
+
+.note h1 {
+    color: #ff6b6b; /* Choose a color that you like */
+    font-size: 36px; /* Adjust the font size as needed */
+}
+
+/* Rest of your CSS styles */
+
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+.photo-tag {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    background-color: #fcb69f;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.photo-tag img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
